@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>class1</title>
+    <style>
+        #mainText{
+            margin: 50px;
+            text-align: center;
+            border: 3px solid rgb(255, 255, 255);
+        }
+        .box {
+           padding:10px ; 
+           text-align: center;
+        }
+        h1 {
+        background-color: rgb(221, 27, 221);
+        color: rgb(0, 0, 0);
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main style="background-color: black;">
+        <h1 id="mainText">
+            Class 1 Lab
+        </h1>
+        <p class="box"; style="color: rgb(235, 111, 235); background-color: rgb(69, 39, 88)";>
+            what's your name?
+        </p>
+        <p class="box"; style="color: rgb(241, 245, 242); background-color: rgb(29, 154, 212)">
+            in which country do you live?
+        </p>
+        <p class="box"; style="color: rgb(168, 151, 166); background-color: rgb(167, 21, 65)">
+            what language do you speak?
+        </p>
+        <p class="box"; style="color: rgb(248, 250, 126); background-color: rgb(116, 63, 33)">
+            what's your job?
+        </p>
+
+
+    </main>
+    <footer>
+        &copy; 2021
+
+    </footer>
+     <script>
+        let userName=prompt("what's your name?");
+        console.log(userName);
+
+        let country=prompt("in which country do you live?");
+        console.log(country);
+
+        let lang =prompt("what language do you speak?");
+        console.log(lang);
+
+        let  job=prompt("what's your job?");
+        console.log(job);
+
+
+        alert ("welcome" + userName + "from" + country + "your speaking in" + lang + "and you work as" + job);
+    
+    </script>
+    
+
+    
+</body>
+</html>
